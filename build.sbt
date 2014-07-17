@@ -7,8 +7,8 @@ resolvers += "sonatype-staging" at "https://oss.sonatype.org/content/repositorie
 libraryDependencies ++= Seq(
   "org.webjars" %% "webjars-play" % "2.2.2",
   "com.typesafe.play" %% "play-slick" % "0.8.0-M1",
-  "org.postgresql" % "postgresql" % "9.2-1003-jdbc4",
-  "org.virtuslab" %% "unicorn-play" % "0.6.0-M7"
+  "org.postgresql" % "postgresql" % "9.2-1003-jdbc4"
+//  "org.virtuslab" %% "unicorn-play" % "0.6.0-M7"
 )
 
 fork in Test := false
